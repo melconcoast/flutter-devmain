@@ -13,11 +13,15 @@ class MyApp extends StatelessWidget {
       title: 'Welcome to Flutter',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Welcome to Flutter'),
+          title: Text('Welcome to Flutter',
+              style: TextStyle(fontSize: 30, color: Colors.white)),
           backgroundColor: Colors.pink,
         ),
         body: Center(
-          child: Text('Hello Krishna'),
+          child: Text(
+            'Hello Krishna',
+            style: TextStyle(fontSize: 60, color: Colors.black),
+          ),
         ),
       ),
     );
